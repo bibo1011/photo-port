@@ -15,9 +15,6 @@ function Nav() {
         },
     ];
     
-    // function categorySelected(){
-    //     console.log('hello')
-    // }
     function categorySelected(name) {
         console.log(`${name} clicked`)
     }
