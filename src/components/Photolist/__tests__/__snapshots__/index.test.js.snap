@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoList is rendering renders 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="flex-row"
+    >
+      <img
+        alt="Grocery aisle"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Grocery booth"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Building exterior"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Restaurant table"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Cafe interior"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Cat green eyes"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Green parrot"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Yellow macaw"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Pug smile"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Pancakes"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Burrito"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Scallop pasta"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Burger"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Fruit bowl"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Green river"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Docks"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Panoramic village by sea"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Domestic landscape"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+      <img
+        alt="Park bench"
+        class="img-thumbnail mx-1"
+        src="1.jpg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
