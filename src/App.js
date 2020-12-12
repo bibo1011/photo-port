@@ -6,6 +6,7 @@ import ContactForm from './components/Contact'
 import './App.css';
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
       name: 'commercial',
@@ -22,16 +23,30 @@ function App() {
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}>
-
-      </Nav>
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
       <main>
-        <div>
-          <ContactForm></ContactForm>
-          <Gallery currentCategory={currentCategory}></Gallery>
-          <About></About>
+        {!contactSelected ? (
+          <>
 
-        </div>
+            <Gallery currentCategory={currentCategory}></Gallery>
+            <About></About>
+          </>
+        ) : (<ContactForm></ContactForm>)
+        }
+
+        {/* conditional statement is equivalent above */}
+        {/* if(!contactSelected) {
+          <>
+            <Gallery currentCategory={currentCategory}></Gallery>
+            <About></About>
+          </>
+        } else {
+          <ContactForm></ContactForm>
+        } */}
+      
       </main>
     </div>
   );
